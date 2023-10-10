@@ -1,0 +1,135 @@
+
+        body {
+            background-color: #212135;
+            margin: 0;
+            padding: 0;
+            font-family: Gabrielle
+        }
+
+        .title {
+            text-align: center;
+            margin: 30px 0;
+            color: #ff5722;
+        }
+
+        .title h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #ff5722;
+        }
+
+        .title p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #777;
+        }
+
+        #subtitle {
+            font-size: 1rem;
+            margin-top: 5px;
+            color: #777;
+        }
+
+        .search {
+            background-color: #ffffff;
+            border: 3px solid #ff5722;
+            margin: 30px auto;
+            text-align: center;
+            border-radius: 50px;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .search input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 20px;
+        }
+
+        .search button {
+            background-color: #ff5722;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .content {
+            color: #fff;
+            margin: 30px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #009688; /* Teal color */
+            border-radius: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+        }
+
+        .social {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .social h2 {
+            color: #ff8c00;
+            font-size: 1.5rem;
+        }
+
+        .social .insta {
+            color: #9f04ba;
+        }
+
+        .social a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 5px;
+            font-size: 1.2rem;
+        }
+
+        .social a:hover {
+            text-decoration: underline;
+        }
+        
+        #why-choose-us {
+            color: black;
+        }
+
+        #contact-info {
+            color: #DEDECA;
+        }
+
+        /* Feedback Column */
+        .feedback {
+            background-color: #ff5722; /* Orange color */
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .feedback h2 {
+            color: #fff;
+            font-size: 1.5rem;
+        }
+
+        .feedback p {
+            color: #fff;
+            font-size: 1.2rem;
+        }
+
+        .star-rating {
+            font-size: 2rem;
+            color: #fff; /* White color for stars */
+            cursor: pointer;
+        }
+
+        .star-rating.checked {
+            color: #ffcc00; /* Yellow color when selected */
+        }
+    

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI BLOG POST GENERATOR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">
+        <h1>AI BLOG POST GENERATOR</h1>
+        <p>Free Tool for AI-Powered Blog Ideas</p>
+        <p id="subtitle">Need ideas for your next blog post? Generate creative blog ideas using your target keywords with this free AI blog generator</p>
+    </div>
+
+    <div class="search">
+        <input type="text" placeholder="Enter your keywords...">
+        <button>Generate</button>
+    </div>
+
+    <div class="content">
+        <p>In an era where technology continues to redefine the way we work, communicate, and create, the world of content generation is not exempt. Welcome to the future of content creation, where artificial intelligence (AI) takes center stage. Our blog post generator is here to revolutionize the way you produce high-quality, engaging content effortlessly.</p>
+        <p id="why-choose-us">Why Choose Us: We're not just embracing AI; we're shaping its potential to empower your content strategy. Our team of experts and cutting-edge technology work in harmony to deliver content that captivates, informs, and converts.</p>
+    </div>
+
+    <div class="feedback">
+        <h2>Feedback</h2>
+        <p>Rate your experience:</p>
+        <span class="star-rating" onclick="rateStar(1)">&#9733;</span>
+        <span class="star-rating" onclick="rateStar(2)">&#9733;</span>
+        <span class="star-rating" onclick="rateStar(3)">&#9733;</span>
+        <span class="star-rating" onclick="rateStar(4)">&#9733;</span>
+        <span class="star-rating" onclick="rateStar(5)">&#9733;</span>
+    </div>
+
+    <div class="social">
+        <h2>Contact us:</h2>
+        <p id="contact-info">Have questions or need assistance? Reach out to our friendly support team at ---> <a href="mailto:aiblogpostgenerator@gmail.com" style="color: blue;">aiblogpostgenerator@gmail.com</a>.</p>
+    </div>
+
+    <script>
+        function rateStar(selectedRating) {
+            // Remove 'checked' class from all stars
+            let stars = document.querySelectorAll(".star-rating");
+            stars.forEach((star, index) => {
+                if (index < selectedRating) {
+                    star.classList.add("checked"); // Add 'checked' class to selected stars
+                } else {
+                    star.classList.remove("checked");
+                }
+            });
+        }
+    </script>
+</body>
+</html>
